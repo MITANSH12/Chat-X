@@ -11,8 +11,10 @@ const firebaseConfig = {
   
  firebase.initializeApp(firebaseConfig);
  window.onload = function() {
+    div_login = document.getElementById("login-div");
  if (screen.width <= 768) {
 document.getElementById("ShowPassword").style.marginLeft = "325px"
+div_login.style.marginLeft = "100px";
  }
  
     

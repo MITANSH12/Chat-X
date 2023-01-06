@@ -9,9 +9,11 @@ const firebaseConfig = {
   
   
  firebase.initializeApp(firebaseConfig);
+ div_signup = document.getElementById("signup-div");
  window.onload = function() {
  if (screen.width <= 768) {
-document.getElementById("ShowPasswordSignup").style.marginLeft = "325px"
+document.getElementById("ShowPasswordSignup").style.marginLeft = "325px";
+div_signup.style.marginLeft = "100px"
  }
  
     
