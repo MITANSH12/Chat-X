@@ -27,7 +27,7 @@ document.getElementById("ShowPassword").style.marginLeft = "325px"
     }
     else {
         inputPassword.type = "password";
-        eye.className = "glyphicon glyphicon-eye-close"
+        eye.className = "glyphicon glyphicon-eye-close";
     }
 
  }
